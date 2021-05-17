@@ -25,6 +25,7 @@ public class CheckPower {
 		{
 			System.out.println("The number is not a power of 2");
 		}
+		sc.close();
 	}
 
 }

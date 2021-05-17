@@ -17,5 +17,6 @@ public class CalculateDifference {
 		System.out.print("Enter the limit:");
 		int n=sc.nextInt();
 		System.out.println("The result difference is = "+calculateDifference(n));
+		sc.close();
 	}
 }

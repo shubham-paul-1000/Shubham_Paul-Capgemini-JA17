@@ -20,6 +20,7 @@ public class CalculateSum {
 		System.out.print("Enter the limit:");
 		int n=sc.nextInt();
 		System.out.println("Sum of first n natural numbers divisible by 3 or 5 = "+calculateSum(n));
+		sc.close();
 	}
 
 }

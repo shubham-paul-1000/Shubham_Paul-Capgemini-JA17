@@ -25,5 +25,6 @@ public class CheckNumber {
 		{
 			System.out.println("The number is not an increasing number");
 		}
+		sc.close();
 	}
 }
