@@ -1,5 +1,4 @@
-package casestudy2;
-
+package casestudy2_2;
 public class BalanceInquiry extends Transaction {
 	
 	public BalanceInquiry(){

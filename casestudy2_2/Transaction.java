@@ -1,5 +1,4 @@
-package casestudy2;
-
+package casestudy2_2;
 public class Transaction {
 	private int accountNumber;
 	public Transaction() {}

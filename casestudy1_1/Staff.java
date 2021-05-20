@@ -1,5 +1,4 @@
-package casestudy;
-
+package casestudy1_1;
 public class Staff extends Person {
 	private String school;
 	private double pay;

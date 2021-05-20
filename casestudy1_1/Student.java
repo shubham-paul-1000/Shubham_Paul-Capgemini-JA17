@@ -1,5 +1,4 @@
-package casestudy;
-
+package casestudy1_1;
 public class Student extends Person {
 	private String program;
 	private int year;

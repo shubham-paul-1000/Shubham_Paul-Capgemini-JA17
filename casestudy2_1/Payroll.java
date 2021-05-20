@@ -1,4 +1,4 @@
-package casestudy2;
+package casestudy2_1;
 public class Payroll {
 	public void adjustSalary(int salary)
 	{

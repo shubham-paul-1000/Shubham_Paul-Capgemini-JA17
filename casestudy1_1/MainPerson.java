@@ -1,7 +1,6 @@
-package casestudy;
+package casestudy1_1;
 import java.util.Scanner;
-
-public class Main {
+public class MainPerson {
 
     static void studentDetails() {
         Scanner sc = new Scanner(System.in);
@@ -25,9 +24,7 @@ public class Main {
         sc.nextLine();
         System.out.println("The details are: ");
         System.out.println(student.toString());
-
     }
-
     static void staffDetails() {
         Scanner sc = new Scanner(System.in);
         Staff staff = new Staff();
@@ -45,9 +42,7 @@ public class Main {
         staff.setPay(pay);
         System.out.println("The details are: ");
         System.out.println(staff.toString());
-
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter\n1 for Student details\n2 for Staff details");

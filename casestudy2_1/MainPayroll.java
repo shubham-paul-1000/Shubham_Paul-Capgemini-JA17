@@ -1,6 +1,6 @@
-package casestudy2;
+package casestudy2_1;
 import java.util.Scanner;
-public class MainPayRoll {
+public class MainPayroll {
 	public static void adminPayRoll() {
         Scanner sc = new Scanner(System.in);
         Admin a = new Admin();

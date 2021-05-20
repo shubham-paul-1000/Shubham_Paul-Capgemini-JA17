@@ -1,5 +1,4 @@
-package casestudy2;
-
+package casestudy2_1;
 public class Academic extends Payroll{
 	private String name;
 	private int salary;

@@ -1,10 +1,10 @@
-package casestudy2;
-public class Withdrawal extends Transaction{
+package casestudy2_2;
+public class Deposit extends Transaction{
 	double amount;
-	public Withdrawal() {
+	public Deposit() {
 		super();
 	}
-	public Withdrawal(int accountNum,double amount) {
+	public Deposit(int accountNum,double amount) {
 		super(accountNum);
 		this.amount = amount;
 	}
@@ -14,11 +14,10 @@ public class Withdrawal extends Transaction{
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-
-
 	public void execute(double balance) {
 		super.execute();
-		balance=balance-amount;
+		balance=balance+amount;
+		
 		System.out.println("Balance : "+balance);
 	}
 

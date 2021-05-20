@@ -1,4 +1,4 @@
-package casestudy2;
+package casestudy2_2;
 import java.text.ParseException;
 import java.util.Scanner;
 public class MainTransaction{
